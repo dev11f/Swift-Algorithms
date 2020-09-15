@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		812E5C512510846E00120DD9 /* Fibonacci.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Fibonacci.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		81DDBFDA2510840000FE7624 /* Swift-Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DDBFDD2510840000FE7624 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		812E5C502510844200120DD9 /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				812E5C512510846E00120DD9 /* Fibonacci.playground */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
 		81DDBFD12510840000FE7624 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +66,7 @@
 		81DDBFDC2510840000FE7624 /* Swift-Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				812E5C502510844200120DD9 /* Fibonacci */,
 				81DDBFDD2510840000FE7624 /* main.swift */,
 			);
 			path = "Swift-Algorithms";
