@@ -24,8 +24,12 @@
 
 /* Begin PBXFileReference section */
 		812E5C512510846E00120DD9 /* Fibonacci.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Fibonacci.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		812E5C5325108A2300120DD9 /* Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		812E5C562510BC0200120DD9 /* Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stack.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		81DDBFDA2510840000FE7624 /* Swift-Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DDBFDD2510840000FE7624 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		81E36A0E2510C14C00740283 /* Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		81E36A102510C7AF00740283 /* Deque.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Deque.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,86 @@
 			path = Fibonacci;
 			sourceTree = "<group>";
 		};
+		812E5C522510899200120DD9 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				812E5C5325108A2300120DD9 /* Sort.playground */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		812E5C552510BBEE00120DD9 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				8179658F2511197A00BF9CCA /* Graphs */,
+				8179658E2511197200BF9CCA /* Trees */,
+				8179658D2511196B00BF9CCA /* Lists */,
+				81E36A0F2510C77600740283 /* Queues */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		8179658D2511196B00BF9CCA /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		8179658E2511197200BF9CCA /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		8179658F2511197A00BF9CCA /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		817965902511198200BF9CCA /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				81796593251119BA00BF9CCA /* Math */,
+				81796592251119AC00BF9CCA /* StringSearch */,
+				81796591251119A600BF9CCA /* Searching */,
+				812E5C522510899200120DD9 /* Sorting */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		81796591251119A600BF9CCA /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
+		81796592251119AC00BF9CCA /* StringSearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StringSearch;
+			sourceTree = "<group>";
+		};
+		81796593251119BA00BF9CCA /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		8179659425111B8500BF9CCA /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				812E5C502510844200120DD9 /* Fibonacci */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
 		81DDBFD12510840000FE7624 = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +150,22 @@
 		81DDBFDC2510840000FE7624 /* Swift-Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				812E5C502510844200120DD9 /* Fibonacci */,
+				817965902511198200BF9CCA /* Algorithms */,
+				812E5C552510BBEE00120DD9 /* DataStructures */,
+				8179659425111B8500BF9CCA /* Problems */,
 				81DDBFDD2510840000FE7624 /* main.swift */,
 			);
 			path = "Swift-Algorithms";
+			sourceTree = "<group>";
+		};
+		81E36A0F2510C77600740283 /* Queues */ = {
+			isa = PBXGroup;
+			children = (
+				812E5C562510BC0200120DD9 /* Stack.playground */,
+				81E36A0E2510C14C00740283 /* Queue.playground */,
+				81E36A102510C7AF00740283 /* Deque.playground */,
+			);
+			path = Queues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
