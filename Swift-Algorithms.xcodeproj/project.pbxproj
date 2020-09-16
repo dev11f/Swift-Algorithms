@@ -26,6 +26,9 @@
 		812E5C512510846E00120DD9 /* Fibonacci.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Fibonacci.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		812E5C5325108A2300120DD9 /* Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		812E5C562510BC0200120DD9 /* Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stack.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8179659725112E2600BF9CCA /* QueueUsingStacks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = QueueUsingStacks.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		819894A22511ACD300E2CB52 /* LinearSearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinearSearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		819894A42511B3EE00E2CB52 /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		81DDBFDA2510840000FE7624 /* Swift-Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DDBFDD2510840000FE7624 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		81E36A0E2510C14C00740283 /* Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -105,6 +108,8 @@
 		81796591251119A600BF9CCA /* Searching */ = {
 			isa = PBXGroup;
 			children = (
+				819894A22511ACD300E2CB52 /* LinearSearch.playground */,
+				819894A42511B3EE00E2CB52 /* BinarySearch.playground */,
 			);
 			path = Searching;
 			sourceTree = "<group>";
@@ -127,8 +132,17 @@
 			isa = PBXGroup;
 			children = (
 				812E5C502510844200120DD9 /* Fibonacci */,
+				8179659625112E1000BF9CCA /* QueueUsingStacks */,
 			);
 			path = Problems;
+			sourceTree = "<group>";
+		};
+		8179659625112E1000BF9CCA /* QueueUsingStacks */ = {
+			isa = PBXGroup;
+			children = (
+				8179659725112E2600BF9CCA /* QueueUsingStacks.playground */,
+			);
+			path = QueueUsingStacks;
 			sourceTree = "<group>";
 		};
 		81DDBFD12510840000FE7624 = {
